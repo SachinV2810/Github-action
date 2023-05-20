@@ -2,7 +2,7 @@
 name: update-user-blog-links
 
 #display username of the person that uses the workflow
-run-name: ${{user-name}} is updating profile  
+run-name: ${{github.actor}} is updating profile  
 
 # Controls when the workflow will run
 on:
